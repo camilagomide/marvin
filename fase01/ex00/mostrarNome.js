@@ -1,8 +1,4 @@
-console.log("Marvin");
-
-
-
-
-
-
-
+function mostrarnome () {
+    console.log("Marvin");
+}
+mostrarnome()
