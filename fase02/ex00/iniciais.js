@@ -1,3 +1,3 @@
 function iniciais(palavra) {
-    return "moc"
+    return palavra.substring(0,3);
 }
