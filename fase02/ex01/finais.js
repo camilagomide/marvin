@@ -1,3 +1,3 @@
 function finais(palavra) {
-    return "ect"
+    return palavra.substring(palavra.length-3)
 }
