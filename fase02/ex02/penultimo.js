@@ -1,3 +1,3 @@
 function penultimo(palavra) {
-    return "z"
+    return palavra.charAt(palavra.length-2);
 }
