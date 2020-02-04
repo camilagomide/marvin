@@ -1,3 +1,4 @@
 function minusculo(palavra) {
-    return "a"
+    var min = palavra.substring(0,1).toLowerCase();
+    return min  
 }
