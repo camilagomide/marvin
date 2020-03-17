@@ -1,9 +1,9 @@
-function parOuImpar(numero){
-    if (numero%2===0) {
-        return ("Par");
+function nove(numero){
+    var n=numero.toString();  
+    if (n.substring(n.length-1) == 9){
+        return true;
     }
-    else {
-        return ("Impar");
-    }
-        
+    else
+        return false
+    
 }
