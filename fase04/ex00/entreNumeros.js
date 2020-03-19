@@ -1,12 +1,10 @@
-function ateZero(num){
-   var n=0
-while (n< num){
-console.log(n)
-n=n+1
+function entreNumeros(min,max){
+    var n=min; 
+    while (n<max){
+        console.log(n);
+        n++;
+    }
+    return max
 }
-while(n>num){
-console.log(n)
-n=n-1
-}
-return num
-}
+
+
