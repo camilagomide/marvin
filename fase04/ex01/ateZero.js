@@ -1,12 +1,16 @@
 function ateZero(num){
-   var n=0
-while (n< num){
-console.log(n)
-n=n+1
+    var n=num;
+    var i= 0;
+if (n>0){
+    while(i<=n){
+    console.log (i);
+    i++;
 }
-while(n>num){
-console.log(n)
-n=n-1
+if (n<0){
+    while (n<=i){
+        console.log (n);
+        n++;
+    }
 }
-return num
+}
 }
