@@ -1,10 +1,8 @@
 function entreNumeros(min,max){
-    var n=min; 
-    while (n<max){
-        console.log(n);
-        n++;
-    }
-    return max
+var i= min;
+var f= max;
+while (i<=f){
+    console.log (i); 
+        i++;
+}    
 }
-
-
