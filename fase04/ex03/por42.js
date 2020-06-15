@@ -1,22 +1,15 @@
 function por42(num1, num2){
-    var numero= 42;
-    var multiplica= 1; 
-    var achou= true; 
-while(achou){
-    var resultado= numero * multiplica; 
-    if (resultado >= num1 & resultado <= num2) {
-        multiplica ++;
-     resultado=numero+multiplica;
-        achou=false
+    var multiplo=42;
+    while (multiplo < num1){
+        multiplo+=42;
+    }//variavel 'multiplo' vai sair desse loop valendo o primeiro multiplo de 42 do intervalo
+
+    multiplo+=42; //agora, ela vale o proximo multiplo
+
+    if(multiplo < num2){
+        return multiplo;
+    }else{
+        console.log("Não encontrado");
+        return false;
     }
-    else {
-        if (resultado > num2) {
-            achou= false
-            resultado= "Não encontrado";
-        }
-    else {
-    multiplica ++
-    }
-}
-}
 }
